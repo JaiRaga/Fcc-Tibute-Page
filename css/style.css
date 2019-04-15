@@ -1,0 +1,111 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-family: "Leto", sans-serif;
+    line-height: 1.8em;
+}
+
+.landing {
+    opacity: 0.7;
+    background-position: center;
+    background-image: url("../image/image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-width: 100%;
+    text-align: center;
+    color: green;
+}
+
+header {
+    margin: 0;
+    position: absolute;
+    top: 9%;
+    width:100%;
+}
+
+.caption {
+    color:#f01a1a;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px 80px;
+    margin: 0;
+    background-color: azure;
+}
+
+
+.intro h3 {
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    /* min-height: 100vh;
+    background-position: center top;
+    background-image: url('../image/image2.jpg');
+    background-size: auto; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%; */
+}
+
+#img-div figure {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+figcaption {
+    display: none;
+}
+
+#tribute-info {
+    opacity: 0.8;
+    min-height: 100vh;
+    text-align: center;
+    padding: 40px 80px;
+    background-attachment: fixed;
+    background-image: url('../image/image3.jpg');
+}
+
+#tribute-info ul {
+    list-style-type: none;
+}
+
+.tribute-info-two {
+    padding-top: 5%;
+}
+
+footer {
+    color: white;
+    background: rgb(31, 28, 28);
+    margin: 0;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: aqua;
+}
+    
+
+a:active {
+    color: hotpink;
+}
+    
